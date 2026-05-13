@@ -15,6 +15,7 @@ class QuizAttempt extends Model
 
     protected $casts = [
         'answers' => 'array', // Automatically decodes your JSON answers!
+        'score' => 'integer',
     ];
 
     // Note: We named this "quizzes" because your Vue frontend expects "attempt.quizzes.title"
