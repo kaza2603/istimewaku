@@ -273,6 +273,13 @@ const dashboardStats = computed(() => {
 
     // Use all activities data for accurate counts
     const totalAttempts = allActivitiesData.value.length;
+    // Count actual quizzes done this week from real weekly activity data
+    const weeklyQuizCount = weeklyData
+        ? weeklyData.reduce(
+              (total, day) => total + (day.activitiesCompleted || 0),
+              0,
+          )
+        : 0;
 
     // Calculate total learning time from actual quiz attempts
     let totalMinutes = 0;
@@ -298,6 +305,7 @@ const dashboardStats = computed(() => {
 
     return {
         quizAttempts: totalAttempts.toString(),
+        weeklyQuizCount,
         booksRead: Math.floor(stats.completedQuizzes / 2).toString(),
         overallProgress: `${Math.round((stats.completedQuizzes / stats.totalQuizzes) * 100)}%`,
         averageScore: `${stats.averageScore}%`,
@@ -772,10 +780,7 @@ const getNameInitials = (name) => {
                                         </p>
                                         <p class="text-blue-200 text-sm mt-1">
                                             +{{
-                                                Math.ceil(
-                                                    dashboardStats.quizAttempts /
-                                                        7,
-                                                )
+                                                dashboardStats.weeklyQuizCount
                                             }}
                                             minggu ini
                                         </p>
