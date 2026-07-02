@@ -88,15 +88,7 @@ The platform also analyses quiz completion timestamps to identify unusual answer
 # 🏗 System Architecture
 
 ```
-                Vue.js Frontend
-                       │
-                 HTTP / REST API
-                       │
-                Laravel Backend
-                       │
-               Business Logic Layer
-                       │
-                    MySQL Database
+<img width="975" height="490" alt="image" src="https://github.com/user-attachments/assets/86753632-331f-4acd-9ba4-2aaa13a5fbac" />
 ```
 
 The application follows the MVC architecture using Laravel while Vue.js provides a responsive and interactive frontend.
@@ -189,8 +181,17 @@ The platform supports four different user roles.
 - Student Independence Monitoring
 
 ---
+# 📸 Screenshots
+<img width="1656" height="904" alt="Screenshot 2026-06-05 145627" src="https://github.com/user-attachments/assets/1d98172d-789b-4b9f-9ce9-00bebd313659" />
+<img width="1639" height="899" alt="Screenshot 2026-06-05 145446" src="https://github.com/user-attachments/assets/8706c928-6224-4cc3-90fb-ce2d872f8031" />
+<img width="1622" height="888" alt="Screenshot 2026-06-05 145208" src="https://github.com/user-attachments/assets/70563499-e576-450d-8091-96949332093e" />
+<img width="1615" height="890" alt="Screenshot 2026-06-05 145143" src="https://github.com/user-attachments/assets/bfeb277d-67df-4714-be57-85022d5cd861" />
+<img width="1638" height="903" alt="Screenshot 2026-06-05 144950" src="https://github.com/user-attachments/assets/f5e3779d-ae7d-4923-82ff-9b8e361c74ed" />
 
-<img width="815" height="756" alt="Formal_Pic" src="https://github.com/user-attachments/assets/3228ede3-0820-41a6-88d9-ac17256d9ab1" />
+
+
+
+
 
 # 🚀 Installation
 
