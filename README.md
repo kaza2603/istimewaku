@@ -190,33 +190,7 @@ The platform supports four different user roles.
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots inside `/docs/screenshots`
-
-```
-docs/
-└── screenshots/
-    ├── landing-page.png
-    ├── login.png
-    ├── student-dashboard.png
-    ├── teacher-dashboard.png
-    ├── parent-dashboard.png
-    ├── admin-dashboard.png
-    ├── quiz.png
-    ├── textbook.png
-    └── analytics.png
-```
-
-Example:
-
-```markdown
-## Student Dashboard
-
-![Student Dashboard](docs/screenshots/student-dashboard.png)
-```
-
----
+<img width="815" height="756" alt="Formal_Pic" src="https://github.com/user-attachments/assets/3228ede3-0820-41a6-88d9-ac17256d9ab1" />
 
 # 🚀 Installation
 
