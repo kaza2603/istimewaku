@@ -87,9 +87,9 @@ The platform also analyses quiz completion timestamps to identify unusual answer
 
 # 🏗 System Architecture
 
-```
+
 <img width="975" height="490" alt="image" src="https://github.com/user-attachments/assets/86753632-331f-4acd-9ba4-2aaa13a5fbac" />
-```
+
 
 The application follows the MVC architecture using Laravel while Vue.js provides a responsive and interactive frontend.
 
